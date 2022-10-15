@@ -5,8 +5,8 @@
   "author": "Matthew Huntsberry",
   "license": "MIT",
   "scripts": {
-    "start": "npm run build && keystone-next start",
     "build": "keystone-next build",
+    "start": "keystone-next start",
     "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data"
   },
