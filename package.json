@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "keystone-next build",
-    "start": "npm run build && keystone-next start",
+    "start": "npm run build && keystone-next start -H 0.0.0.0 -p 8080",
     "dev": "keystone-next",
     "seed-data": "keystone-next --seed-data"
   },
