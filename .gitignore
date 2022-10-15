@@ -83,7 +83,7 @@ junit.xml
 *.sublime-workspace
 *.vscode
 
-package-lock.json
+
 
 dist/
 
